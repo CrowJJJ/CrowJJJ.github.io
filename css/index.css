@@ -1,0 +1,20 @@
+.icon-test
+{
+    height:30px; 
+    width:30px; 
+    border: 20px solid 1px;
+    background-color: white;
+}
+
+
+.about
+{
+    height: 200px;
+    background-color: grey; 
+    
+}
+
+.about > div
+{
+    padding: 30px 0 30px 0;
+}

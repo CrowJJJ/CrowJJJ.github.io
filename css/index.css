@@ -1,20 +1,51 @@
-.icon-test
+
+ a
+,p
 {
-    height:30px; 
-    width:30px; 
-    border: 20px solid 1px;
-    background-color: white;
+    font-family: NotoSansTC;
+    font-size: 16px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #000000;
 }
 
-
-.about
+nav
 {
+    background-color: #ffffff;
+}
+
+nav a.navbar-brand img
+{
+    width: 190px;
+    height: 45px;
+}
+
+header
+{
+    margin: 80px 0;
+}
+
+section.about 
+{
+
+}
+
+section.about .banner
+{
+    background-color: lightblue;
+    text-align: center;
     height: 200px;
-    background-color: grey; 
-    
 }
 
-.about > div
+section.about .banner h2
 {
-    padding: 30px 0 30px 0;
+   
+}
+
+section.about .banner p
+{
+    
 }

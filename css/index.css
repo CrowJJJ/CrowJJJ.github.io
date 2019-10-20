@@ -15,6 +15,7 @@
 nav
 {
     background-color: #ffffff;
+    box-shadow: 0 0 60px rgba(34,34,34,.25);
 }
 
 nav a.navbar-brand img
@@ -30,22 +31,137 @@ header
 
 section.about 
 {
+    height: 1800px;
 
 }
 
-section.about .banner
+/* section.about .banner
 {
-    background-color: lightblue;
+
+    background-image:linear-gradient(rgba(255, 255, 255, 0.6),rgba(255, 255, 255, 0.6)), url("../pic/abouts.jpg");
+    background-repeat: no-repeat;
+
+    background-size: cover;
+
+    height: 250px;    
+} */
+
+/* section.about .row
+{
+    align-items:center;
+    justify-content:center;
+    
+} */
+
+section.about .row .banner
+{
+    /* position: absolute;
+    top: 40%;
+    left: 50%;*/
     text-align: center;
-    height: 200px;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.6),rgba(255, 255, 255, 0.6)), url("../pic/abouts.jpg");
+    background-repeat: no-repeat;
+    /* text-align: center; */
+    background-size: cover;
+    /* width: inherit; */
+    /* height: 300px;     */
+    width: 100%;
 }
 
-section.about .banner h2
+section.about .row .banner .text
+{
+    margin: 100px 0;
+}
+
+section.about .container .info
+{
+    /* height: 600px; */
+    margin: 100px 0;
+}
+
+section.about .row
+{
+    padding: 40px 0;
+}
+
+section.about .row .col-6 img
+{
+    /* height: 400px;
+    width: 600px; */
+    width: inherit;
+    margin: 20px 0;
+}
+
+section.about .row .col-6
+{
+    /* height: inherit; */
+    /* position: relative; */
+    margin: auto;
+}
+
+/* section.about .row .col-3 .text
 {
    
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+} */
+
+section.menu
+{
+
 }
 
-section.about .banner p
+section.menu .container-fluid .banner
 {
-    
+    text-align: center;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.6),rgba(255, 255, 255, 0.6)), url("../pic/menu.jpg");
+    background-repeat: no-repeat;
+    /* text-align: center; */
+    background-size: cover;
+    /* width: inherit; */
+    height: 300px;    
+    width: 100%;
+}
+
+section.menu .row .banner .text
+{
+    width: inherit;
+    margin: 100px 0;
+    text-align: center;
+}
+
+section.menu .food
+{
+    margin-top: 89px;
+}
+
+section.menu .foodtitle
+{
+    color: #c5dc4d;
+}
+
+section.menu .fooditem
+{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: #c5dc4d solid 5px;
+}
+
+section.menu .fooditem .col-4
+{
+    text-align: center;
+    margin: 40px 0;
+}
+
+section.menu .fooditem .col-4 h4
+{
+    color: #54341a; 
+}
+section.menu .fooditem .col-4 p
+{
+    color: #958476;
 }

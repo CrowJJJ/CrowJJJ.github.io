@@ -31,7 +31,7 @@ header
 
 section.about 
 {
-    height: 1800px;
+    /* height: 1800px; */
 
 }
 
@@ -151,6 +151,12 @@ section.menu .fooditem
     border: #c5dc4d solid 5px;
 }
 
+section.menu .fooditem .fooditemtile
+{
+    margin-top: 20px;
+    margin-left: 20px; 
+}
+
 section.menu .fooditem .col-4
 {
     text-align: center;
@@ -164,4 +170,87 @@ section.menu .fooditem .col-4 h4
 section.menu .fooditem .col-4 p
 {
     color: #958476;
+}
+
+
+section.shop
+{
+    height: 900px;
+}
+
+section.shop .shopContent
+{
+    height: 500px;
+    position:relative;
+}
+
+section.shop .content
+{
+    position:absolute;
+    top:15%; 
+    left:15%;
+    z-index:1;
+}
+
+
+section.shop .map
+{
+    position:absolute;
+    /* top:40%;*/
+    left:35%; 
+    z-index:0;
+    height: inherit;
+}
+
+
+section.shop .row .banner
+{
+    /* position: absolute;
+    top: 40%;
+    left: 50%;*/
+    text-align: center;
+    background-image:linear-gradient(rgba(255, 255, 255, 0.6),rgba(255, 255, 255, 0.6)), url("../pic/menu.jpg");
+    background-repeat: no-repeat;
+    /* text-align: center; */
+    background-size: cover;
+    /* width: inherit; */
+    height: 300px;    
+    width: 100%;
+}
+
+section.shop .row .banner .text
+{
+    margin: 100px 0;
+}
+
+section.shop img
+{
+    width: inherit;
+}
+
+footer 
+{
+    background-color: #413b36; 
+}
+
+footer .herf
+{
+    display: inline-block;
+}
+
+
+footer hr {
+    /* display: block; */
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    color: #e9ded6;
+  }
+
+.color-white
+{
+   color:  #e9ded6;
 }
